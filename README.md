@@ -4,11 +4,11 @@ The dataset given gives information about enrgy in a power plant. A lot of value
 
 # Part I: Combined cycled power plant data set
 
-1. a)Data Preparation
+## Data Preparation
 
 We import our data on 2 data frames: one will remain intact and the second one will be cleaned
 
-<img src="./Files/Images/df.png" alt="test" height="200" width="500"> 
+<img src="./Files/Images/df.png" alt="test" height="150" width="400"> 
 
 If we look at our data set we can see that it contains a lot of missing values
 
@@ -22,7 +22,7 @@ To correct the missing values, we decided to fill them with the mean of each col
 
 When we look at the new set generated:
 
-<img src="./Files/Images/dataCorrected.png" alt="test" height="250" width="700"> 
+<img src="./Files/Images/dataCorrected.png" alt="test" height="250" width="600"> 
 
 Then we can compare the actual new statistics:
 
@@ -32,11 +32,11 @@ Then we can compare the actual new statistics:
 - As expected, we didn&#39;t modified the characteristics much, but effectively filled the missing values
 
 
-1. b)Building the linear regression model
+## Building the linear regression model
 
 
 
-<img src="./Files/Images/compar.png" alt="test" height="600" width="500"> 
+<img src="./Files/Images/compar.png" alt="test" height="600" width="400"> 
 
 - We import the libraries
 - We create our VectorAssembler removing the PE (output to predicted) column
@@ -59,7 +59,7 @@ Results:
 
 <img src="./Files/Images/avgRes.png" alt="test" height="100" width="150"> 
 
-<img src="./Files/Images/rmse.png" alt="test" height="50" width="200"> 
+<img src="./Files/Images/rmse.png" alt="test" height="50" width="100"> 
 
 - As we can see we are not that far away from the real result, but using CrossValidation and testing several parameters could improve our score
 
@@ -84,7 +84,7 @@ Result:
 
 
 
-1. c)Building the Decision Tree and random Forest models
+## Building the Decision Tree and random Forest models
 
 We almost the same thing we did before but adapting the parameters:
 
@@ -105,7 +105,7 @@ We almost the same thing we did before but adapting the parameters:
 
 - As we can see the Decision Tree seems to be a better model here since the RMSE is less important
 
-1. d)Conclusion
+## Conclusion
 
 Score sum up:
 
