@@ -8,7 +8,7 @@ The dataset given gives information about enrgy in a power plant. A lot of value
 
 We import our data on 2 data frames: one will remain intact and the second one will be cleaned
 
-<img src="./Files/Images/df.png" alt="test" height="150" width="400"> 
+<img src="./Files/Images/df.png" alt="test" height="250" width="300"> 
 
 If we look at our data set we can see that it contains a lot of missing values
 
@@ -22,7 +22,7 @@ To correct the missing values, we decided to fill them with the mean of each col
 
 When we look at the new set generated:
 
-<img src="./Files/Images/dataCorrected.png" alt="test" height="250" width="600"> 
+<img src="./Files/Images/dataCorrected.png" alt="test" height="200" width="500"> 
 
 Then we can compare the actual new statistics:
 
@@ -36,7 +36,7 @@ Then we can compare the actual new statistics:
 
 
 
-<img src="./Files/Images/compar.png" alt="test" height="600" width="400"> 
+<img src="./Files/Images/compar.png" alt="test" height=450" width="400"> 
 
 - We import the libraries
 - We create our VectorAssembler removing the PE (output to predicted) column
@@ -59,7 +59,7 @@ Results:
 
 <img src="./Files/Images/avgRes.png" alt="test" height="100" width="150"> 
 
-<img src="./Files/Images/rmse.png" alt="test" height="50" width="100"> 
+<img src="./Files/Images/rmse.png" alt="test" height="80" width="300"> 
 
 - As we can see we are not that far away from the real result, but using CrossValidation and testing several parameters could improve our score
 
